@@ -1,0 +1,33 @@
+
+*{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+header,main,aside,footer{
+    border-color: red;
+    border-style: groove;
+}
+header {
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+header h1{
+    line-height: 100px;
+    text-align: center;
+}
+
+
+
+nav{
+    display: flex;
+    direction: row;
+}

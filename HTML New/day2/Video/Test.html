@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #new{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:aqua">testing with console</h1>
+    <script>
+        console.log("Hahi");
+        console.error("...error");
+        console.warn("...Warning");
+        console.table(
+            {"name":"John Doe","age":"23"},
+            {"name":"Jane Doe","age":"32"}
+
+        )
+        console.group('groupInfo');
+            console.log('Emmanuel');
+
+            console.log('Boss');
+
+            console.log('Tessy');
+        console.groupEnd('groupInfo');
+        console.log(document);
+        console.info(document.URL);
+        console.dir(document);
+        localStorage.setItem("topic","Devtool after lunch");
+        console.log(localstorage.getItem('topic'));
+        document.cookie = "url=https://secureurl.com";
+        document.cookie="company=ust";
+        document.cookie="place=trivandrum";
+        
+    </script>
+<p>HAi I hope everyone is doing great.</p>
+<h3 id ="new">2 hello</h3>
+</body>
+</html>

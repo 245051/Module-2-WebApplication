@@ -1,0 +1,80 @@
+*{ /*Universal Selector*/
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(233,237,237) ;
+    border-top: solid;
+    border-style: solid;
+    border-color: rgb(196, 143, 143);
+    border-width: 3px;
+    background-image: url(Images/Emmanuel.jpg);
+}
+div{
+    width:"200px";
+    height: "100px";
+    border: 10px;
+    border-color: black;
+    border-style: groove;
+    padding: 20px;
+    margin:10px
+}
+span{
+    color:rgb(174, 238, 110);
+    background-color: aqua;
+}
+#first span{
+    color:blueviolet;
+}
+#second span{
+    color: violet;
+}
+#third span{
+    color: antiquewhite;
+}
+ #sp{
+    color:red;
+} 
+#p-1>span{
+    color: blue;
+}
+#first{
+    border-style: dotted;
+    border-style: initial;
+    border-style: dashed;
+    background-color: darkolivegreen;
+}
+#second{
+    border-top: blanchedalmond;
+    background-color: greenyellow;
+}
+#third{
+    border-color: crimson;
+    background-color: cyan;
+
+}
+.p1{
+    background-color: rgb(52, 57, 68);
+}
+#p-1{
+    font-style: italic;
+    
+}
+#p-2{
+    font-style: italic;
+}
+#p-3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#first>h1{
+  
+    
+    font-family: 'Teko', sans-serif;
+}
+#second>h1{
+    font-family: 'Delicious Handrawn', cursive;
+}
+#thirs>h1{
+    font-family: 'Archivo', sans-serif;
+
+}
